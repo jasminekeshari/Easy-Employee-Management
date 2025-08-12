@@ -1,73 +1,118 @@
-# Welcome to your Lovable project
+Easy Employee Management
+A simple yet powerful Employee Management System built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
+The application allows HR teams and managers to efficiently manage employee records, roles, and performance data.
 
-## Project info
+🚀 Live Demo: Easy Employee Management
+📂 GitHub Repo: Easy Employee Management
 
-**URL**: https://lovable.dev/projects/9705618a-749b-4089-b0f9-a080788f50fe
+📌 Features
+Employee CRUD – Add, update, view, and delete employee records.
 
-## How can I edit this code?
+Role Management – Assign roles and permissions.
 
-There are several ways of editing your application.
+Search & Filter – Quickly find employees by name, department, or role.
 
-**Use Lovable**
+Responsive UI – Works seamlessly on desktop and mobile.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9705618a-749b-4089-b0f9-a080788f50fe) and start prompting.
+Secure Backend – REST API with Express.js & MongoDB.
 
-Changes made via Lovable will be committed automatically to this repo.
+Deployment Ready – Hosted on Vercel (frontend) and connected to MongoDB Atlas.
 
-**Use your preferred IDE**
+🛠 Tech Stack
+Frontend:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+React.js
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+React Router
 
-Follow these steps:
+CSS / Tailwind / Bootstrap (depending on your project setup)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Backend:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Node.js
 
-# Step 3: Install the necessary dependencies.
-npm i
+Express.js
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+MongoDB Atlas (Cloud Database)
 
-**Edit a file directly in GitHub**
+Other Tools:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Axios for API calls
 
-**Use GitHub Codespaces**
+dotenv for environment variables
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📂 Folder Structure
+csharp
+Copy
+Edit
+Easy-Employee-Management/
+│
+├── client/               # Frontend (React)
+│   ├── public/
+│   └── src/
+│
+├── server/               # Backend (Node + Express)
+│   ├── models/           # MongoDB Schemas
+│   ├── routes/           # API Endpoints
+│   └── server.js
+│
+└── README.md
+⚙️ Installation & Setup
+Clone the repository
 
-## What technologies are used for this project?
+bash
+Copy
+Edit
+git clone https://github.com/jasminekeshari/Easy-Employee-Management.git
+cd Easy-Employee-Management
+Install dependencies for both client & server
 
-This project is built with:
+bash
+Copy
+Edit
+cd server
+npm install
+cd ../client
+npm install
+Set up environment variables
+Create a .env file inside the server folder:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+ini
+Copy
+Edit
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+Run the backend
 
-## How can I deploy this project?
+bash
+Copy
+Edit
+cd server
+npm start
+Run the frontend
 
-Simply open [Lovable](https://lovable.dev/projects/9705618a-749b-4089-b0f9-a080788f50fe) and click on Share -> Publish.
+bash
+Copy
+Edit
+cd client
+npm start
+📸 Screenshots
+(Add some screenshots of your UI here to make it visually appealing)
 
-## Can I connect a custom domain to my Lovable project?
+📜 License
+This project is open-source and available under the MIT License.
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+
+
+
+
+
+
+
+
+
+
+
