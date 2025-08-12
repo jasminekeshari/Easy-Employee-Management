@@ -3,7 +3,7 @@ A simple yet powerful Employee Management System built with the MERN stack (Mong
 The application allows HR teams and managers to efficiently manage employee records, roles, and performance data.
 
 🚀 Live Demo: https://easy-employee-management.vercel.app/
-📂 GitHub Repo: 
+📂 GitHub Repo: https://github.com/jasminekeshari/Easy-Employee-Management
 
 📌 Features
 Employee CRUD – Add, update, view, and delete employee records.
