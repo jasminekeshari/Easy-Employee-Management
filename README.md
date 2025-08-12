@@ -25,7 +25,7 @@ React.js
 
 React Router
 
-CSS / Tailwind / Bootstrap (depending on your project setup)
+CSS / Tailwind 
 
 Backend:
 
